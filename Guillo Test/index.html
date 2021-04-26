@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/estilos.css">
+<script src="https://code.jquery.com/jquery.js"></script>
+<head>
+	<title>DR ROBOT</title>
+	<div id="titulo">
+		<h1> CAPITALES DEL MUNDO </h1>
+	</div>
+	<div id="informacion">
+		<span id="usuario"></span>
+	</div>
+</head>
+<body>
+	<div id="container">
+
+		<section id="login">
+			<div id="inicio">
+				<form name="formulario1">
+				<div id="uno">
+					<h2>Nombre Completo</h2>
+				</div>
+				<div id="dos">
+					<input id="texto" type="text" name="nombre">
+				</div>
+				<div id="tres">
+					<input id="boton" type="button" name="COMENZAR" value="COMENZAR" onclick="iniciar()">
+				</div>
+				</form>
+			</div>
+		</section>
+
+		<section id="pregunta_1">
+				<div id="contorno">
+
+                    <div id="pregunta"></div>
+                    <div id="respuestas"></div>
+                    <div id="botones">
+                        <input id="boton2" type="button" value="Siguiente" onclick="comprobar()">  
+                        <input id="anteboton" type="button" value="Atras" onclick="comprobar()">  						                
+                    </div>
+				</div>	
+		</section>
+
+		<div id="barra">
+			<progress id="bar" value="0" max="100"></progress>
+		</div>
+		
+	</div> 
+     
+	<div id="menu">
+		<section id="imagen">
+			<img src="img/mapamundi.jpg" height="450px">
+		</section>
+		<section id="menu_info">
+			<div id="tarjeta">
+				<div id="cuadrado">
+					<div id="divsion">
+						<div id="p1">1</div>
+						<div id="p2">2</div>
+						<div id="p3">3</div>
+					</div>
+					<div id="">
+						<div id="p4">4</div>
+						<div id="p5">5</div>
+						<div id="p6">6</div>
+					</div>
+					<div id="divsion">
+						<div id="p7">7</div>
+						<div id="p8">8</div>
+						<div id="p9">9</div>
+					</div>
+					<div id="divsion">
+						<div id="p10">10</div>
+					</div>
+				</div>
+			</div>
+            <div id="fin__tarjeta">
+                 <div id="finalizar">
+                      <input id="boton_inicio" type="button" value="TERMINAR INTENTO" onclick="calificar()"> 
+                </div>
+            </div>
+             
+		</section>
+		
+	</div>
+    <script src="js/funciones.js"></script>
+    <footer>
+         Guillermo Bedoya Ortega "DR. ROBOT"
+	</footer>
+</body>
+
+
+</html>

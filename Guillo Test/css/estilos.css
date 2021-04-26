@@ -1,0 +1,359 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px; 
+    margin-right: 0px;
+    background-color: rgba(144, 179, 161, 0.671)
+    }
+
+  #titulo,h1 {
+    margin-top:  15px;
+    padding-top: 1px;
+    height: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color:rgb(34, 143, 75);
+    font-size: 50px;
+    color: floralwhite;
+    font-style: bold;
+    
+  }
+  #informacion{
+    text-align: right;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+  
+  }
+
+  #inicio{
+    margin-left: 50px;
+    height: 90px;
+    width: 780px;
+ 
+
+  }
+
+  #uno{
+    float: left;
+    height: 90px;
+    width: 120px;
+    margin-left: 30px;
+    text-align: center;
+  }
+
+  #dos{
+    float: left;
+    height: 90px;
+    width: auto;
+    margin-left: 15px;
+    text-align: center;
+  
+  }
+
+  #texto{
+    text-align: left;
+    font-size: 30px;
+    margin-top:  20px;
+    float: left;
+    height: 50px;
+    width: 420px;
+ 
+  
+  
+  }
+  #tres{
+    float: left;
+    height: 90px;
+    width: 120px;
+    margin-left: 10px;
+    text-align: center;
+  
+  }
+  #boton{
+    border-radius: 10px;
+    background-color:rgb(34, 143, 75);
+    margin-top:  20px;
+    float: left;
+    height: 55px;
+    width: 140px;
+    margin-left: 10px;
+    text-align: center;
+    color: floralwhite;
+    font-size: 20px;
+  }
+
+  #boton2{
+
+    background-color:green ;
+    margin-top:  38px;
+    float: right;
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+  }
+  #anteboton{
+
+    background-color:green ;
+    margin-top:  38px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+  }
+  #botones{
+    margin-right: 30px;
+  }
+  #container{
+    float: left;
+    height: 500px;
+    width: 900px;
+    margin-bottom:  30px;
+  
+  }
+  #menu{
+    margin-left: 20px;
+    float: left;
+    height: 500px;
+    width: 500px;
+  
+  }
+  footer{
+    clear: both;
+    height: 40px;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    font-style: italic;
+  
+  }
+  #usuario{
+  margin-right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+  }
+  
+  #pregunta_1 {
+    display: none;
+  }
+  
+  #pregunta{
+    padding-top: 30px;
+    margin-left: 30px;
+    color:black;
+    text-align: left;
+    font-size: 26px;
+  }
+  #respuestas{
+    margin-top: 40px;
+    margin-left: 60px;
+    color:black;
+    text-align: left;
+    font-size: 26px;
+  }
+ 
+  #este_no_es{
+    padding-left: 35px;
+    padding-top: 38px;
+  
+  }
+  #contorno{
+    height: 360px;
+    margin-left: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:green;
+  }
+  #barra{
+    display: none;
+    margin-top: 20px;
+    height: 114px;
+    margin-left: 30px;
+
+  }
+
+  #tarjeta{
+    display: none;
+    border-radius: 8px;
+    border-style: solid;
+    border-color:green;
+    margin-right: 50px;
+    float: left;
+    height: 240px;
+    width: 480px;
+  }
+  #fin__tarjeta{
+    margin-top: 20px;
+    display: none;
+
+    margin-right: 50px;
+    float: left;
+    height: 235px;
+    width: 480px;
+  
+  
+  }
+  #p1{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p2{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p3{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p4{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p5{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p6{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p7{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p8{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+
+  #p9{
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 26px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  #p10{
+    float: left;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 10px; 
+    height:30px;
+    width: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+  }
+  
+  #boton_inicio{
+
+    background-color:rgb(34, 143, 75);
+    margin-top:  80px;
+    float: right;
+    height: 60px;
+    width: 400px;
+    margin-right: 40px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+
+  }
+
+  progress {  
+      display:  block;
+      margin-top: 37px;
+      margin-left:  40px;
+      border:  1px;
+      border: solid; 
+      border: #ccc;
+      height:  40px;
+      width:  90%;
+      position:  relative;
+    
+  }  
+  progress::-webkit-progress-bar {  
+      background:  #fff;
+      border:  1px solid #ccc;
+  }  
+  progress::-webkit-progress-value {  
+  background:  #2c90c6;
+  }  
+  
+  
+  
